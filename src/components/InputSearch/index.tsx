@@ -14,7 +14,6 @@ const Search = () => {
     };
 
     const fruitsFiltered = fruitsList.filter((fruit) => {
-        console.log("filtrando");
         return fruit.toLowerCase().includes(inputValue.toLowerCase());
     });
 
@@ -42,6 +41,7 @@ const Search = () => {
                         />
                     ) : (
                         <BiChevronDown
+                            data-testid="drop"
                             onClick={handlerClick}
                             size={20}
                             className="absolute cursor-pointer top-0 right-2 translate-y-[16px] text-dropColor"
@@ -49,7 +49,7 @@ const Search = () => {
                     )}
                 </div>
                 {openList ? (
-                    <ul className="bg-white rounded rounded-t-none ">
+                    <ul className="bg-white rounded rounded-t-none max-h-52 overflow-y-scroll ">
                         {fruitsFiltered.length > 0 ? (
                             fruitsFiltered.map((fruit) => (
                                 <ItemOfListFruit key={fruit} fruit={fruit} />
