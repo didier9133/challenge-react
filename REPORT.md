@@ -13,6 +13,6 @@ el uso de hooks en este proyecto mejoró la eficiencia y la calidad del código 
 -   [Tailwind CSS] - un framework CSS que te permitirá agilizar el desarrollo de tus proyectos además de aplicar las mejores prácticas y herramientas que llegaron con Tailwind 3.0!
 -   [TypeScript] - es un superset para agregar tipado fuerte a tu código JavaScript que mejora la experiencia de desarrollo de tu equipo tipando los componentes, estados y librerías de tu aplicación.
 
-## ending
+## Ending
 
 La combinación de React, TypeScript y Tailwind CSS en este proyecto mejora la calidad del código, la reutilización de componentes, la eficiencia del flujo de trabajo y la legibilidad del código. También puede reducir el tiempo y los recursos necesarios para el desarrollo y mantenimiento de la aplicación.
